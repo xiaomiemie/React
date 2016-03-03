@@ -1,0 +1,24 @@
+.comment-box{
+  border:1px solid #ccc;
+}
+.comment{
+  border:1px dashed #ccc;
+}
+.example-enter {
+  opacity: 0.01;
+    transform:translate(100px,100px);
+  transition: transform 1s ease-in;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transform:translate(10px,10px);
+}
+.example-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+}
